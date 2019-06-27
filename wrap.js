@@ -1,3 +1,9 @@
-const wrap = (line, maxLen) => ""
+const wrap = (line, maxLen) => {
+  if (line === "") {
+    return "";
+  } else {
+    return line;
+  }
+};
 
-module.exports = wrap
+module.exports = wrap;
